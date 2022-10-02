@@ -15,10 +15,9 @@ class secondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    var secondViewVariable1 : Int
-    var secondViewVariable2 : Int
-    secondViewVariable1 = 5
-    secondViewVariable2 = 18
+    var secondViewVariable1 : Int = 5
+    var secondViewVariable2 : Int = 18
+    
    
     
     
@@ -28,11 +27,12 @@ class secondViewController: UIViewController {
     
     @IBAction func calculateButtonPressed(_ sender: Any) {
        
-        var thirdVariable : String(thirdVariable)
+        var thirdVariable : Int
         thirdVariable = secondViewVariable1 + secondViewVariable2
+    thirdVariable = String(thirdVariable)
         if secondViewVariable2 > secondViewVariable1
-            
-            self.view.backgroundColor = UIColor.pink
+        {
+            self.view.backgroundColor = UIColor.red
         
         else
             self.view.backgroundColor = UIColor.green

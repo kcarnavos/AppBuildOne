@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var firstLabel: UILabel!
-    self.firstLabel.text = "Univerity of Hawai'i West O'ahu"
+    self.firstLabel.text = "University of Hawai'i West O'ahu"
     
     @IBOutlet weak var firstTextView: UITextView!
     self.firstTextView.text = "The University of Hawaiʻi – West Oʻahu (UHWO) is a public university in Kapolei, Hawaii. It is one of ten campuses of the University of Hawaiʻi system. It offers baccalaureate degrees in liberal arts and professional studies. UHWO opened in January 1976 and since 1981 has been accredited by the Western Association of Schools and Colleges. In 2007 the school added first- and second-year subjects, becoming a four-year university. (Wikipedia)"
